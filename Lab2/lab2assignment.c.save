@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+struct student
+{
+                char  *name[20];
+                char  *last[20];
+                int   exam1= 0;
+                int   exam2= 0;
+                int   exam3= 0;
+                float mean = 0;
+}studentData[20];
+
+int main()
+{
+	struct student studentData[20];
+	char course[9];
+	FILE *data;
+	data = fopen("student_data.txt","w");
+	fscan(data, "&", courseID);
+
+	if(data == NULL)
+	{
+		printf("Error: File failed to open");
+		return 1;
+	}
+
+	for(int i=0; i<20; i++)
+	{
+
+
+	}
+
+	return 0;
+
+}

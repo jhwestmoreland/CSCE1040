@@ -1,0 +1,2 @@
+The second value changed to 2250 rather than 1500.
+It used the 1.5 value within the main function and multiplied it with 1500 = 2250.

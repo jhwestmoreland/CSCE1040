@@ -1,0 +1,18 @@
+Jared Westmoreland
+Lab06
+3/3/2016
+
+Question A:
+
+1, 0
+Means the user input was correct, 1, and the program can run with success. Zero will return Invalid User Input.
+
+Question B:
+
+0, -1
+Negative one Processes the program and completes it. Zero is what stops the program.
+
+Question C:
+
+You could use Boolen. 0 is false and anything else is true.
+False will stop the program. True will continue to run the program. 

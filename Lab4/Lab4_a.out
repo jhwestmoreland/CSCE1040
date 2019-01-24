@@ -1,0 +1,28 @@
++----------------------------------------------------+
+|  CSCE1040 -- Computer Science II                   |
+|  NAME:  Jared Westmoreland      EUID:jhw0094       |
+|  EMAIL: JaredWestmoreland@my.unt.edu               |
+|  Lab Assignment 4               Spring 2016        |
++----------------------------------------------------+
+
+12345678901234567890123
+stratotanker    3  1314 
+    sentinel    1   866 
+   emergency    0   959 
+   parachute    1   957 
+    throttle    3   886 
+  stabilizer    1  1081 
+      rudder    0   646 
+   refueling    0   961 
+   wingstrut    2  1015 
+ flightsuits    2  1206 
+    aluminum    0   872 
+     engines    0   745 
+    jumpseat    1   873 
+     collide    0   732 
+   formation    1   975 
+    winglets    1   877 
+  slipstream    1  1092 
+     aviator    1   758 
+  sunglasses    0  1096 
+  centerline    1  1065 

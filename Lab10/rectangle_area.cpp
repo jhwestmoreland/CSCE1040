@@ -1,0 +1,28 @@
+// This program demonstrates a simple C++ Class
+
+#include <iostream>
+#include "rectang.h"   // contains Rectangle class declaration
+
+using namespace std;
+
+int main (void)
+{
+   Rectangle Box;
+   float Wide, Long;
+
+   std::cout << "\nThis program will calculate the area of a rectangle.\n";
+   std::cout << "\nWhat is the  WIDTH? ";
+   std::cin >> Wide;
+
+   std::cout << "What is the LENGTH? ";
+   std::cin >> Long;
+
+   Box.SetData(Wide, Long);
+
+   Box.CalcArea();
+
+   std::cout << "\nHere is the rectangle's data:\n";
+   std::cout << "      Width: " << Box.GetWidth() << "\n";
+   std::cout << "     Length: " << Box.GetLength() << "\n\n";
+   std::cout << "       AREA: " << Box.GetArea() << "\n\n";
+}
